@@ -2,10 +2,13 @@
 const fs = require('fs');
 // Added csv-parser library
 const csv = require('csv-parser');
+// Added Lodash library
+const _ = require('lodash');
 
+// Get configuration
+const config = require('../config/config.json');
 // Path to check events
-// TODO Configurable path
-let path = 'path';
+let path = config['path'];
 
 // Listen for folder changes
 fs.watch(path, (eventType, filename) => {
