@@ -11,6 +11,9 @@ Simple polyline representation using HTML, Node.js, Leaflet and Open Street Maps
   - npm install csv-parser
   - npm install lodash
 
+# Configuration
+  - Add your path to check directory changes to traffic-representation/config/config.json.
+
 # TODO
   - Automatic npm install.
   - Polylines CSV parsing on watch.end event.
