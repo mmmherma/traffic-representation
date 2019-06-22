@@ -1795,311 +1795,607 @@ function init() {
     [40.7626006,-73.839671]
   ];
 
+  // 1
   var polyline1 = L.polyline(path1, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline1.getBounds());
+  // 2
   var polyline2 = L.polyline(path2, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline2.getBounds());
-  var polyline3 = L.polyline(path3, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline3.getBounds());
+  // 3
+  // var polyline3 = L.polyline(path3, {color: 'red'}).addTo(map);
+  // 4
   var polyline4 = L.polyline(path4, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline4.getBounds());
-  var polyline5 = L.polyline(path5, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline5.getBounds());
+  // 106
+  // var polyline5 = L.polyline(path5, {color: 'red'}).addTo(map);
+  // 110
   var polyline6 = L.polyline(path6, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline6.getBounds());
-  var polyline7 = L.polyline(path7, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline7.getBounds());
+  // 119
+  // var polyline7 = L.polyline(path7, {color: 'red'}).addTo(map);
+  // 124
   var polyline8 = L.polyline(path8, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline8.getBounds());
+  // 126
   var polyline9 = L.polyline(path9, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline9.getBounds());
+  // 129
   var polyline10 = L.polyline(path10, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline10.getBounds());
-  var polyline11 = L.polyline(path11, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline11.getBounds());
+  // 137
+  // var polyline11 = L.polyline(path11, {color: 'red'}).addTo(map);
+  // 140
   var polyline12 = L.polyline(path12, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline12.getBounds());
+  // 141
   var polyline13 = L.polyline(path13, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline13.getBounds());
+  // 142
   var polyline14 = L.polyline(path14, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline14.getBounds());
+  // 145
   var polyline15 = L.polyline(path15, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline15.getBounds());
-  var polyline16 = L.polyline(path16, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline16.getBounds());
+  // 149
+  // var polyline16 = L.polyline(path16, {color: 'black'}).addTo(map);
+  // 150
   var polyline17 = L.polyline(path17, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline17.getBounds());
+  // 153
   var polyline18 = L.polyline(path18, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline18.getBounds());
+  // 154
   var polyline19 = L.polyline(path19, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline19.getBounds());
+  // 155
   var polyline20 = L.polyline(path20, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline20.getBounds());
+  // 159
   var polyline21 = L.polyline(path21, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline21.getBounds());
-  var polyline22 = L.polyline(path22, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline22.getBounds());
+  // 160
+  // var polyline22 = L.polyline(path22, {color: 'red'}).addTo(map);
+  // 164
   var polyline23 = L.polyline(path23, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline23.getBounds());
+  // 165
   var polyline24 = L.polyline(path24, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline24.getBounds());
+  // 167
   var polyline25 = L.polyline(path25, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline25.getBounds());
-  var polyline26 = L.polyline(path26, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline26.getBounds());
+  // 168
+  // var polyline26 = L.polyline(path26, {color: 'black'}).addTo(map);
+  // 169
   var polyline27 = L.polyline(path27, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline27.getBounds());
+  // 170
   var polyline28 = L.polyline(path28, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline28.getBounds());
+  // 171
   var polyline29 = L.polyline(path29, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline29.getBounds());
-  var polyline30 = L.polyline(path30, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline30.getBounds());
+  // 172
+  // var polyline30 = L.polyline(path30, {color: 'black'}).addTo(map);
+  // 177
   var polyline31 = L.polyline(path31, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline31.getBounds());
-  var polyline32 = L.polyline(path32, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline32.getBounds());
+  // 178
+  // var polyline32 = L.polyline(path32, {color: 'black'}).addTo(map);
+  // 184
   var polyline33 = L.polyline(path33, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline33.getBounds());
-  var polyline34 = L.polyline(path34, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline34.getBounds());
+  // 185
+  // var polyline34 = L.polyline(path34, {color: 'black'}).addTo(map);
+  // 186
   var polyline35 = L.polyline(path35, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline35.getBounds());
-  var polyline36 = L.polyline(path36, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline36.getBounds());
-  var polyline37 = L.polyline(path37, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline37.getBounds());
-  var polyline38 = L.polyline(path38, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline38.getBounds());
+  // 190
+  // var polyline36 = L.polyline(path36, {color: 'black'}).addTo(map);
+  // 191
+  // var polyline37 = L.polyline(path37, {color: 'black'}).addTo(map);
+  // 195
+  // var polyline38 = L.polyline(path38, {color: 'black'}).addTo(map);
+  // 199
   var polyline39 = L.polyline(path39, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline39.getBounds());
-  var polyline40 = L.polyline(path40, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline40.getBounds());
-  var polyline41 = L.polyline(path41, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline41.getBounds());
+  // 202
+  // var polyline40 = L.polyline(path40, {color: 'black'}).addTo(map);
+  // 204
+  // var polyline41 = L.polyline(path41, {color: 'black'}).addTo(map);
+  // 205
   var polyline42 = L.polyline(path42, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline42.getBounds());
-  var polyline43 = L.polyline(path43, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline43.getBounds());
+  // 206
+  // var polyline43 = L.polyline(path43, {color: 'black'}).addTo(map);
+  // 207
   var polyline44 = L.polyline(path44, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline44.getBounds());
+  // 208
   var polyline45 = L.polyline(path45, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline45.getBounds());
+  // 211
   var polyline46 = L.polyline(path46, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline46.getBounds());
-  var polyline47 = L.polyline(path47, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline47.getBounds());
+  // 212
+  // var polyline47 = L.polyline(path47, {color: 'black'}).addTo(map);
+  // 213
   var polyline48 = L.polyline(path48, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline48.getBounds());
+  // 215
   var polyline49 = L.polyline(path49, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline49.getBounds());
+  // 217
   var polyline50 = L.polyline(path50, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline50.getBounds());
+  // 221
   var polyline51 = L.polyline(path51, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline51.getBounds());
+  // 222
   var polyline52 = L.polyline(path52, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline52.getBounds());
-  var polyline53 = L.polyline(path53, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline53.getBounds());
+  // 223
+  // var polyline53 = L.polyline(path53, {color: 'black'}).addTo(map);
+  // 257
   var polyline54 = L.polyline(path54, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline54.getBounds());
-  var polyline55 = L.polyline(path55, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline55.getBounds());
-  var polyline56 = L.polyline(path56, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline56.getBounds());
+  // 258
   var polyline57 = L.polyline(path57, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline57.getBounds());
-  var polyline58 = L.polyline(path58, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline58.getBounds());
+  // 259
+  // var polyline55 = L.polyline(path55, {color: 'black'}).addTo(map);
+  // 261
+  // var polyline56 = L.polyline(path56, {color: 'black'}).addTo(map);
+  // 262
+  // var polyline58 = L.polyline(path58, {color: 'black'}).addTo(map);
+  // 263
+  // var polyline63 = L.polyline(path63, {color: 'black'}).addTo(map);
+  // 264
   var polyline59 = L.polyline(path59, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline59.getBounds());
-  var polyline60 = L.polyline(path60, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline60.getBounds());
-  var polyline61 = L.polyline(path61, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline61.getBounds());
+  // 265
+  // var polyline60 = L.polyline(path60, {color: 'black'}).addTo(map);
+  // 295
+  // var polyline61 = L.polyline(path61, {color: 'black'}).addTo(map);
+  // 298
   var polyline62 = L.polyline(path62, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline62.getBounds());
-  var polyline63 = L.polyline(path63, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline63.getBounds());
+  // 311
   var polyline64 = L.polyline(path64, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline64.getBounds());
-  var polyline65 = L.polyline(path65, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline65.getBounds());
+  // 315
+  // var polyline65 = L.polyline(path65, {color: 'black'}).addTo(map);
+  // 318
   var polyline66 = L.polyline(path66, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline66.getBounds());
+  // 319
   var polyline67 = L.polyline(path67, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline67.getBounds());
+  // 324
   var polyline68 = L.polyline(path68, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline68.getBounds());
-  var polyline69 = L.polyline(path69, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline69.getBounds());
-  var polyline70 = L.polyline(path70, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline70.getBounds());
-  var polyline71 = L.polyline(path71, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline71.getBounds());
-  var polyline72 = L.polyline(path72, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline72.getBounds());
+  // 325
+  // var polyline69 = L.polyline(path69, {color: 'black'}).addTo(map);
+  // 329
+  // var polyline70 = L.polyline(path70, {color: 'black'}).addTo(map);
+  // 330
+  // var polyline71 = L.polyline(path71, {color: 'black'}).addTo(map);
+  // 331
+  // var polyline72 = L.polyline(path72, {color: 'black'}).addTo(map);
+  // 332
   var polyline73 = L.polyline(path73, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline73.getBounds());
+  // 338
   var polyline74 = L.polyline(path74, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline74.getBounds());
+  // 344
   var polyline75 = L.polyline(path75, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline75.getBounds());
-  var polyline76 = L.polyline(path76, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline76.getBounds());
-  var polyline77 = L.polyline(path77, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline77.getBounds());
+  // 345
+  // var polyline76 = L.polyline(path76, {color: 'black'}).addTo(map);
+  // 347
+  // var polyline77 = L.polyline(path77, {color: 'black'}).addTo(map);
+  // 349
   var polyline78 = L.polyline(path78, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline78.getBounds());
-  var polyline79 = L.polyline(path79, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline79.getBounds());
+  // 350
+  // var polyline79 = L.polyline(path79, {color: 'black'}).addTo(map);
+  // 351
   var polyline80 = L.polyline(path80, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline80.getBounds());
+  // 354
   var polyline81 = L.polyline(path81, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline81.getBounds());
-  var polyline82 = L.polyline(path82, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline82.getBounds());
+  // 364
   var polyline83 = L.polyline(path83, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline83.getBounds());
-  var polyline84 = L.polyline(path84, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline84.getBounds());
+  // 365
+  // var polyline82 = L.polyline(path82, {color: 'black'}).addTo(map);
+  // 369
+  // var polyline84 = L.polyline(path84, {color: 'black'}).addTo(map);
+  // 375
   var polyline85 = L.polyline(path85, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline85.getBounds());
+  // 376
   var polyline86 = L.polyline(path86, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline86.getBounds());
+  // 377
   var polyline87 = L.polyline(path87, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline87.getBounds());
+  // 378
   var polyline88 = L.polyline(path88, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline88.getBounds());
-  var polyline89 = L.polyline(path89, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline89.getBounds());
-  var polyline90 = L.polyline(path90, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline90.getBounds());
+  // 379
+  // var polyline89 = L.polyline(path89, {color: 'black'}).addTo(map);
+  // 380
+  // var polyline90 = L.polyline(path90, {color: 'black'}).addTo(map);
+  // 381
   var polyline91 = L.polyline(path91, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline91.getBounds());
-  var polyline92 = L.polyline(path92, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline92.getBounds());
+  // 382
+  // var polyline92 = L.polyline(path92, {color: 'black'}).addTo(map);
+  // 383
   var polyline93 = L.polyline(path93, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline93.getBounds());
+  // 384
   var polyline94 = L.polyline(path94, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline94.getBounds());
-  var polyline95 = L.polyline(path95, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline95.getBounds());
-  var polyline96 = L.polyline(path96, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline96.getBounds());
-  var polyline97 = L.polyline(path97, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline97.getBounds());
-  var polyline98 = L.polyline(path98, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline98.getBounds());
-  var polyline99 = L.polyline(path99, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline99.getBounds());
-  var polyline100 = L.polyline(path100, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline100.getBounds());
-  var polyline101 = L.polyline(path101, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline101.getBounds());
-  var polyline102 = L.polyline(path102, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline102.getBounds());
+  // 385
+  // var polyline95 = L.polyline(path95, {color: 'black'}).addTo(map);
+  // 387
+  // var polyline96 = L.polyline(path96, {color: 'black'}).addTo(map);
+  // 388
+  // var polyline97 = L.polyline(path97, {color: 'black'}).addTo(map);
+  // 390
+  // var polyline98 = L.polyline(path98, {color: 'black'}).addTo(map);
+  // 394
+  // var polyline99 = L.polyline(path99, {color: 'black'}).addTo(map);
+  // 395
+  // var polyline100 = L.polyline(path100, {color: 'black'}).addTo(map);
+  // 398
+  // var polyline101 = L.polyline(path101, {color: 'black'}).addTo(map);
+  // 399
+  // var polyline102 = L.polyline(path102, {color: 'black'}).addTo(map);
+  // 402
   var polyline103 = L.polyline(path103, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline103.getBounds());
-  var polyline104 = L.polyline(path104, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline104.getBounds());
-  var polyline105 = L.polyline(path105, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline105.getBounds());
-  var polyline106 = L.polyline(path106, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline106.getBounds());
-  var polyline107 = L.polyline(path107, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline107.getBounds());
-  var polyline108 = L.polyline(path108, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline108.getBounds());
-  var polyline109 = L.polyline(path109, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline109.getBounds());
+  // 405
+  // var polyline104 = L.polyline(path104, {color: 'black'}).addTo(map);
+  // 406
+  // var polyline105 = L.polyline(path105, {color: 'black'}).addTo(map);
+  // 410
+  // var polyline106 = L.polyline(path106, {color: 'black'}).addTo(map);
+  // 411
+  // var polyline107 = L.polyline(path107, {color: 'black'}).addTo(map);
+  // 412
+  // var polyline108 = L.polyline(path108, {color: 'black'}).addTo(map);
+  // 413
+  // var polyline109 = L.polyline(path109, {color: 'black'}).addTo(map);
+  // 416
   var polyline110 = L.polyline(path110, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline110.getBounds());
-  var polyline111 = L.polyline(path111, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline111.getBounds());
+  // 417
+  // var polyline111 = L.polyline(path111, {color: 'black'}).addTo(map);
+  // 418
   var polyline112 = L.polyline(path112, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline112.getBounds());
-  var polyline113 = L.polyline(path113, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline113.getBounds());
+  // 419
+  // var polyline113 = L.polyline(path113, {color: 'black'}).addTo(map);
+  // 422
   var polyline114 = L.polyline(path114, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline114.getBounds());
-  var polyline115 = L.polyline(path115, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline115.getBounds());
-  var polyline116 = L.polyline(path116, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline116.getBounds());
+  // 423
+  // var polyline115 = L.polyline(path115, {color: 'black'}).addTo(map);
+  // 424
+  // var polyline116 = L.polyline(path116, {color: 'black'}).addTo(map);
+  // 425
   var polyline117 = L.polyline(path117, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline117.getBounds());
+  // 426
   var polyline118 = L.polyline(path118, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline118.getBounds());
-  var polyline119 = L.polyline(path119, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline119.getBounds());
+  // 427
+  // var polyline119 = L.polyline(path119, {color: 'black'}).addTo(map);
+  // 428
   var polyline120 = L.polyline(path120, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline120.getBounds());
+  // 430
   var polyline121 = L.polyline(path121, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline121.getBounds());
+  // 431
   var polyline122 = L.polyline(path122, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline122.getBounds());
+  // 433
   var polyline123 = L.polyline(path123, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline123.getBounds());
+  // 434
   var polyline124 = L.polyline(path124, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline124.getBounds());
-  var polyline125 = L.polyline(path125, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline125.getBounds());
-  var polyline126 = L.polyline(path126, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline126.getBounds());
-  var polyline127 = L.polyline(path127, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline127.getBounds());
-  var polyline128 = L.polyline(path128, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline128.getBounds());
-  var polyline129 = L.polyline(path129, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline129.getBounds());
-  var polyline130 = L.polyline(path130, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline130.getBounds());
+  // 435
+  // var polyline126 = L.polyline(path126, {color: 'black'}).addTo(map);
+  // 436
+  // var polyline125 = L.polyline(path125, {color: 'black'}).addTo(map);
+  // 437
+  // var polyline128 = L.polyline(path128, {color: 'black'}).addTo(map);
+  // 439
+  // var polyline127 = L.polyline(path127, {color: 'black'}).addTo(map);
+  // 440
   var polyline131 = L.polyline(path131, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline131.getBounds());
+  // 441
+  // var polyline129 = L.polyline(path129, {color: 'black'}).addTo(map);
+  // 445
+  // var polyline130 = L.polyline(path130, {color: 'black'}).addTo(map);
+  // 448
   var polyline132 = L.polyline(path132, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline132.getBounds());
+  // 450
   var polyline133 = L.polyline(path133, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline133.getBounds());
-  var polyline134 = L.polyline(path134, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline134.getBounds());
+  // 451
+  // var polyline134 = L.polyline(path134, {color: 'black'}).addTo(map);
+  // 453
   var polyline135 = L.polyline(path135, {color: 'red'}).addTo(map);
-  // map.fitbounds(polyline135.getBounds());
 
 
 
-  // var path121 = [
-  //   [40.5902,-74.19332],
-  //   [40.57748,-74.19046],
-  //   [40.57623,-74.190181],
-  //   [40.5742005,-74.1898],
-  //   [40.57251,-74.189821],
-  //   [40.57162,-74.18998],
-  //   [40.5703306,-74.190391],
-  //   [40.56777,-74.192011],
-  //   [40.5604,-74.19941]
-  // ];
-  //
-  // var path122 = [
-  //   [40.56042,-74.199391],
-  //   [40.55924,-74.20076],
-  //   [40.5585105,-74.20184],
-  //   [40.5579004,-74.203061],
-  //   [40.5571906,-74.204851],
-  //   [40.55606,-74.20935],
-  //   [40.5557304,-74.210451],
-  //   [40.55519,-74.21191],
-  //   [40.554441,-74.21348],
-  //   [40.55369,-74.214801],
-  //   [40.552851,-74.216101],
-  //   [40.5518206,-74.217341]
-  // ];
+  // Between 448 and 450
+  var int1 = [
+    [40.79319,-73.9795],
+    [40.8373205,-73.94883]
+  ];
+  var int1 = L.polyline(int1, {color: 'black'}).addTo(map);
 
-  // var cpath1 = [
-  //   [40.8273104,-73.84998],
-  //   [40.79789,-73.91988]
-  // ];
-  //
-  // // map.fitbounds(polyline134.getBounds());
-  // var cpolyline1 = L.polyline(cpath1, {color: 'blue'}).addTo(map);
+  // Between 433 and 431
+  var int2 = [
+    [40.5518206,-74.217341],
+    [40.54831,-74.22059]
+  ];
+  var int2 = L.polyline(int2, {color: 'black'}).addTo(map);
+
+  // Between 383 and 351
+  var int3 = [
+    [40.6167105,-74.15242],
+    [40.6217506,-74.148181]
+  ];
+  var polylineInt3 = L.polyline(int3, {color: 'black'}).addTo(map);
+
+  // Between 154 and 257
+  var int4 = [
+    [40.6757405,-74.00126],
+    [40.666094, -73.995803],
+    [40.6402406,-74.021561]
+  ];
+  var polylineInt4 = L.polyline(int4, {color: 'black'}).addTo(map);
+
+  // Between 376 and 418
+  var int5 = [
+    [40.60389,-74.06922],
+    [40.60296,-74.065301]
+  ];
+  var polylineInt5 = L.polyline(int5, {color: 'black'}).addTo(map);
+
+  // Between 150 and 155
+  var int6 = [
+    [40.6995605,-73.984551],
+    [40.696394, -73.980786],
+    [40.696459, -73.963212],
+    [40.710846, -73.955864],
+    [40.71772,-73.94831]
+  ];
+  var polylineInt6 = L.polyline(int6, {color: 'black'}).addTo(map);
+
+  // Between 217 and 221
+  var int7 = [
+    [40.72328,-73.973801],
+    [40.72966,-73.972181]
+  ];
+  var polylineInt7 = L.polyline(int7, {color: 'black'}).addTo(map);
+
+  // Between 217 and 145
+  var int8 = [
+    [40.71141,-73.97866],
+    [40.7091405,-73.99594]
+  ];
+  var polylineInt8 = L.polyline(int8, {color: 'black'}).addTo(map);
+
+  // Between 145 and 150
+  var int9 = [
+    [40.7081105,-73.99944],
+    [40.7016405,-73.991121]
+  ];
+  var polylineInt9 = L.polyline(int9, {color: 'black'}).addTo(map);
+
+  // Between 155 and 364
+  var int10 = [
+    [40.72574,-73.932121],
+    [40.734858, -73.922038],
+    [40.741534,-73.95406001]
+  ];
+  var polylineInt10 = L.polyline(int10, {color: 'black'}).addTo(map);
+
+  // Between 155 and 311
+  var int11 = [
+    [40.72574,-73.932121],
+    [40.734858, -73.922038],
+    [40.725362, -73.895959],
+    [40.72966,-73.87775]
+  ];
+  var polylineInt11 = L.polyline(int11, {color: 'black'}).addTo(map);
+
+  // Between 215 and 222
+  var int12 = [
+    [40.7465204,-73.96929],
+    [40.75041,-73.96625]
+  ];
+  var polylineInt12 = L.polyline(int12, {color: 'black'}).addTo(map);
+
+  // Between 344 and 354
+  var int13 = [
+    [40.85513,-73.91865],
+    [40.8859405,-73.89676]
+  ];
+  var polylineInt13 = L.polyline(int13, {color: 'black'}).addTo(map);
+
+  // Between 422 and 426
+  var int14 = [
+    [40.7209605,-73.826371],
+    [40.716088, -73.826193],
+    [40.712211, -73.823124],
+    [40.707141, -73.819003],
+    [40.7024204,-73.816481]
+  ];
+  var polylineInt14 = L.polyline(int14, {color: 'black'}).addTo(map);
+
+  // Between 311 and 422
+  var int15 = [
+    [40.737285,-73.85184001],
+    [40.743390, -73.837910],
+    [40.7278806,-73.832761]
+  ];
+  var polylineInt15 = L.polyline(int15, {color: 'black'}).addTo(map);
+
+  // Between 311 and 428
+  var int16 = [
+    [40.737285,-73.85184001],
+    [40.743390, -73.837910],
+    [40.7498406,-73.8350]
+  ];
+  var polylineInt16 = L.polyline(int16, {color: 'black'}).addTo(map);
+
+  // Between 311 and 318
+  var int17 = [
+    [40.737285,-73.85184001],
+    [40.743390, -73.837910],
+    [40.738107, -73.799784],
+    [40.7442206,-73.771661]
+  ];
+  var polylineInt17 = L.polyline(int17, {color: 'black'}).addTo(map);
+
+  // Between 318 and 422
+  var int18 = [
+    [40.7442206,-73.771661],
+    [40.738107, -73.799784],
+    [40.743390, -73.837910],
+    [40.7278806,-73.832761]
+  ];
+  var polylineInt18 = L.polyline(int18, {color: 'black'}).addTo(map);
+
+  // Between 318 and 428
+  var int19 = [
+    [40.7442206,-73.771661],
+    [40.738107, -73.799784],
+    [40.743390, -73.837910],
+    [40.7498406,-73.8350]
+  ];
+  var polylineInt19 = L.polyline(int19, {color: 'black'}).addTo(map);
+
+  // Between 141 and 428
+  var int20 = [
+    [40.772251,-73.919891],
+    [40.758169, -73.850998],
+    [40.7626006,-73.839671]
+  ];
+  var polylineInt20 = L.polyline(int20, {color: 'black'}).addTo(map);
+
+  // Between 141 and 453
+  var int21 = [
+    [40.772251,-73.919891],
+    [40.758169, -73.850998],
+    [40.7626006,-73.839671]
+  ];
+  var polylineInt21 = L.polyline(int21, {color: 'black'}).addTo(map);
+
+  // Between 167 and 453
+  var int22 = [
+    [40.7817,-73.82527],
+    [40.7714206,-73.83345]
+  ];
+  var polylineInt22 = L.polyline(int22, {color: 'black'}).addTo(map);
+
+  // Between 145 and 153
+  var int23 = [
+    [40.7081105,-73.99944],
+    [40.7007905,-73.994881]
+  ];
+  var polylineInt23 = L.polyline(int23, {color: 'black'}).addTo(map);
+
+  // Between 324 and 364
+  var int24 = [
+    [40.7578106,-73.996801],
+    [40.746704,-73.97515]
+  ];
+  var polylineInt24 = L.polyline(int24, {color: 'black'}).addTo(map);
+
+  // Between 211 and 318
+  var int25 = [
+    [40.77373,-73.78426],
+    [40.7442206,-73.771661]
+  ];
+  var polylineInt25 = L.polyline(int25, {color: 'black'}).addTo(map);
+
+  // Between 208 and 319
+  var int26 = [
+    [40.74877,-73.73895],
+    [40.7537504,-73.744391]
+  ];
+  var polylineInt26 = L.polyline(int26, {color: 'black'}).addTo(map);
+
+  // Between 318 and 319
+  var int27 = [
+    [40.7508404,-73.75023],
+    [40.7537504,-73.744391]
+  ];
+  var polylineInt27 = L.polyline(int27, {color: 'black'}).addTo(map);
+
+  // Between 205 and 402
+  var int27 = [
+    [40.78819,-73.79052],
+    [40.792400, -73.793268],
+    [40.797815,-73.79321]
+  ];
+  var polylineInt27 = L.polyline(int27, {color: 'black'}).addTo(map);
+
+  // Between 211 and 402
+  var int28 = [
+    [40.78795,-73.790191],
+    [40.792400, -73.793268],
+    [40.797815,-73.79321]
+  ];
+  var polylineInt28 = L.polyline(int28, {color: 'black'}).addTo(map);
+
+  // Between 129 and 159
+  var int29 = [
+    [40.8240706,-73.874311],
+    [40.82985,-73.87313]
+  ];
+  var polylineInt29 = L.polyline(int29, {color: 'black'}).addTo(map);
+
+  // Between 129 and 338
+  var int30 = [
+    [40.8240706,-73.874311],
+    [40.822595, -73.886651],
+    [40.807522, -73.905614],
+    [40.8036,-73.916931]
+  ];
+  var polylineInt30 = L.polyline(int30, {color: 'black'}).addTo(map);
+
+  // Between 140 and 338
+  var int31 = [
+    [40.79789,-73.91988],
+    [40.8036,-73.916931]
+  ];
+  var polylineInt31 = L.polyline(int31, {color: 'black'}).addTo(map);
+
+  // Between 140 and 141
+  var int32 = [
+    [40.79789,-73.91988],
+    [40.7866206,-73.929511]
+  ];
+  var polylineInt32 = L.polyline(int32, {color: 'black'}).addTo(map);
+
+  // Between 213 and 222
+  var int33 = [
+    [40.7998905,-73.92972],
+    [40.794715, -73.929922],
+    [40.782772, -73.944098],
+    [40.774971, -73.943076],
+    [40.7606904,-73.956791]
+  ];
+  var polylineInt33 = L.polyline(int33, {color: 'black'}).addTo(map);
+
+  // Between 338 and 344
+  var int34 = [
+    [40.81376,-73.93128],
+    [40.829871, -73.932575],
+    [40.84539,-73.92532]
+  ];
+  var polylineInt34 = L.polyline(int34, {color: 'black'}).addTo(map);
+
+  // Between 199 and 208
+  var int35 = [
+    [40.73177,-73.72294],
+    [40.7380804,-73.723981]
+  ];
+  var polylineInt35 = L.polyline(int35, {color: 'black'}).addTo(map);
+
+  // Between 205 and 319
+  var int36 = [
+    [40.7870405,-73.77592],
+    [40.762275, -73.756846],
+    [40.7537504,-73.744391]
+  ];
+  var polylineInt36 = L.polyline(int36, {color: 'black'}).addTo(map);
+
+  // Between 177 and 184
+  var int37 = [
+    [40.84503,-73.909371],
+    [40.843072, -73.891375],
+    [40.837787, -73.881369],
+    [40.8347204,-73.86593]
+  ];
+  var polylineInt37 = L.polyline(int37, {color: 'black'}).addTo(map);
+
+  // Between 167 and 205
+  var int38 = [
+    [40.7992604,-73.828251],
+    [40.789649, -73.821530],
+    [40.785692, -73.799494],
+    [40.78819,-73.79052]
+  ];
+  var polylineInt38 = L.polyline(int38, {color: 'black'}).addTo(map);
+
+  // Between 165 and 402
+  var int39 = [
+    [40.82513,-73.83624],
+    [40.829220, -73.836937],
+    [40.81662,-73.79872]
+  ];
+  var polylineInt39 = L.polyline(int39, {color: 'black'}).addTo(map);
+
+  // Between 142 and 402
+  var int40 = [
+    [40.8300906,-73.833971],
+    [40.829220, -73.836937],
+    [40.81662,-73.79872]
+  ];
+  var polylineInt40 = L.polyline(int40, {color: 'black'}).addTo(map);
+
+  // Between 126 and 402
+  var int41 = [
+    [40.8271606,-73.84993],
+    [40.829220, -73.836937],
+    [40.81662,-73.79872]
+  ];
+  var polylineInt41 = L.polyline(int41, {color: 'black'}).addTo(map);
+
 }
